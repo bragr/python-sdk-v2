@@ -1,5 +1,5 @@
 #-*- encoding: utf-8 -*-
-#配置公私钥"""
+#Public and private key configuration
 public_key  = ""
 private_key = ""
 
