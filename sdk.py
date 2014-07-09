@@ -44,7 +44,7 @@ class UConnection(object):
         return response;
 
 class UcloudApiClient(object):
-    # 添加 设置 数据中心和  zone 参数
+    # Add config parameter for datacenter/region.
     def __init__(self, base_url, public_key, private_key):
         self.g_params = {};
         self.g_params['PublicKey'] = public_key;
