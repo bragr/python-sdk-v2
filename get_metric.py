@@ -69,5 +69,6 @@ if __name__ == '__main__':
     resource_id = sys.argv[3]
     metric_name = sys.argv[4]
     if argc == 6:
-        timerange = sys.argv[5]
-    get_metric(region, resource_type, resource_id, metric_name)
+        get_metric(region, resource_type, resource_id, metric_name, int(sys.argv[5]))
+    else:
+        get_metric(region, resource_type, resource_id, metric_name)
