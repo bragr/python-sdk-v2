@@ -10,7 +10,7 @@ def get_metric(region, resource_type, resource_id, metric_name,
                timerange=1 * 60 * 60):
     """Get UCloud monitor data
     Region: "cn-east-01"|"cn-north-01"|"cn-south-01"|"hk-01"|"cn-north-02"
-                华东       北京bgpa         华南      香港    北京bgpb
+            East China   Bejing bgpa   South China  Hong Kong   Beijing bgpb
     ResourceType: 'uhost'|'udb'|'umem'|'ulb'
     MetricName:
         uhost:
