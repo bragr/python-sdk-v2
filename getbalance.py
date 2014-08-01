@@ -6,7 +6,7 @@ from config import *
 import sys
 import json
 
-#实例化 API 句柄
+#API handles instantiation
 
 
 if __name__=='__main__':
