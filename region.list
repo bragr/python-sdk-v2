@@ -1,0 +1,11 @@
+cn-east-01
+cn-north-01
+cn-north-02
+cn-north-03
+cn-hongkong-01
+cn-south-01
+"cn-east-01": 1,
+"cn-north-01": 1001,
+"cn-south-01": 2001,
+"hk-01": 3001,
+"cn-north-02": 4001
